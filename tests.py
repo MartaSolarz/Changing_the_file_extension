@@ -1,6 +1,6 @@
-# W poprzednim ćwiczeniu napisz testy funkcji collect_operation. Będzie to wymagało zaimplementowania metody RenameOperation.__eq__.
-
-from M06L11 import collect_operations, RenameOperation
+# Used: pytest
+   
+from rename import collect_operations, RenameOperation
 
 def test_collect_operations_casual_file():
     got = collect_operations('plik.pdf')
@@ -21,4 +21,3 @@ def test_collect_operations_full_path():
     got = collect_operations('M03\pli.k\plik.pdf')
     expected = RenameOperation('M03\pli.k\plik.pdf', 'M03\pli.k\plik.txt')
     assert got == expected
-

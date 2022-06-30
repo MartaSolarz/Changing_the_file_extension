@@ -1,7 +1,3 @@
-### 🔴 Ćwiczenie
-
-# Dodaj adnotacje typów w M06L09.
-
 import glob
 import os
 
@@ -49,7 +45,7 @@ def collect_operations(filename: str) -> RenameOperation:
 def print_proposal_result(operations: list) -> None:
     print('Zostaną dokonane następujące zmiany:')
     for op in operations:
-        print(op)  # pod spodem wywołuje metodę __str__
+        print(op) _
         
 
 def execute_operations(operations: list) -> None:

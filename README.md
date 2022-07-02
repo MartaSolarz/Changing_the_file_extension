@@ -5,6 +5,7 @@
 1. Overall description
 2. Description of the program operation
 3. Python modules used
+4. Tests
 
 ![Picture](https://th.bing.com/th/id/R.f311602e8bf5de507718d1df76453b13?rik=h1EyNHsurNxBhQ&pid=ImgRaw&r=0)
 
@@ -23,5 +24,10 @@ The program allows you to automatically change the extension of files in the sel
 
 - glob
 - os
+- pytest
  
+### 4. Tests ###
+
+The package contains tests to test the codes with the help of Pytest.
+
 *Author: Marta Solarz*

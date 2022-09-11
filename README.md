@@ -22,9 +22,9 @@ The program allows you to automatically change the extension of files in the sel
 
 ### 3. Python modules used ###
 
-- glob
-- os
-- pytest
+- ```glob```
+- ```os```
+- ```pytest```
  
 ### 4. Tests ###
 
